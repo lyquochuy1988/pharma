@@ -457,6 +457,10 @@ a {
     line-height: 32px;
 }
 
+.sub__heading-h3 {
+    line-height: 30px;
+}
+
 .similar {
     margin: 70px;
 }
