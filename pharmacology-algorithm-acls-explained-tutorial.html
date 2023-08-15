@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pharmacology</title>
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- Embed Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Syne:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Grid CSS -->
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <!-- <div class="logo-wrap">
+                    <img class="logo-wrap__img" src="./assets/images/logo.png" alt="Logo">
+                    <span class="logo-wrap__desc">Pathway</span> 
+                </div> -->
+
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Home</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="cta">
+                        <!-- <a href="#!" class="cta__link">Sign Up</a> -->
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.magma.acls&pli=1"
+                            class="cta__link"
+                        >
+                            <img
+                                class="cta__img"
+                                src="./assets/images/google-play-badge.png"
+                                alt="Google Play"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main class="main">
+            <section class="page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page__inner">
+                                <img
+                                    class="page__img"
+                                    src="./assets/images/diltiazem_home_web_2012.jpg"
+                                    alt="1"
+                                />
+                                <h1 class="page__heading">ACLS PHARMACOLOGY</h1>
+
+                                <div class="page__social">
+                                    <p class="page__social-minute">
+                                        12 min read
+                                    </p>
+                                    <ul class="page__social-list">
+                                        <li class="page__social-item">
+                                            <a
+                                                href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fplay.google.com%252Fstore%252Fapps%252Fdetails%253Fid%253Dcom.magma.acls%26pli%3D1&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=vi_VN"
+                                                class="page__social-link"
+                                            >
+                                                <svg
+                                                    width="6"
+                                                    height="10"
+                                                    viewBox="0 0 6 10"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M5.60684 5.62469L5.91808 3.815H3.97258V2.64062C3.97258 2.14562 4.24425 1.66281 5.11565 1.66281H6V0.122188C6 0.122188 5.19757 0 4.43015 0C2.8281 0 1.78095 0.866875 1.78095 2.43594V3.81531H0V5.625H1.78095V10H3.97258V5.625L5.60684 5.62469Z"
+                                                        fill="currentColor"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="page__social-item">
+                                            <a
+                                                href="https://twitter.com/i/flow/login?redirect_after_login=%2Fhome%3Fstatus%3Dhttps%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.magma.acls%26pli%3D1"
+                                                class="page__social-link"
+                                            >
+                                                <svg
+                                                    width="12"
+                                                    height="10"
+                                                    viewBox="0 0 12 10"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M12 1.18378C11.5506 1.3879 11.074 1.52189 10.586 1.58129C11.0943 1.26885 11.4847 0.774108 11.6685 0.184623C11.1852 0.478685 10.6565 0.685871 10.1051 0.797228C9.65602 0.306615 9.01622 0 8.30808 0C6.94842 0 5.84606 1.13033 5.84606 2.52444C5.84606 2.72233 5.86786 2.91498 5.90981 3.0998C3.86372 2.99448 2.04966 1.98946 0.835359 0.462109C0.623484 0.83496 0.502078 1.26866 0.502078 1.73125C0.502078 2.60712 0.93675 3.37978 1.59731 3.83252C1.20635 3.81996 0.823992 3.71168 0.482156 3.51672C0.482016 3.5273 0.482016 3.53787 0.482016 3.54849C0.482016 4.77164 1.33064 5.79199 2.45686 6.02391C2.09432 6.12501 1.71404 6.13981 1.34508 6.06717C1.65834 7.07012 2.56758 7.79996 3.64486 7.82039C2.80228 8.49745 1.7407 8.90106 0.587297 8.90106C0.388547 8.90106 0.192609 8.88909 0 8.86578C1.08952 9.58206 2.38359 10 3.77391 10C8.30236 10 10.7786 6.15321 10.7786 2.81721C10.7786 2.70772 10.7763 2.59885 10.7715 2.4906C11.2535 2.13332 11.6695 1.69079 12 1.18378Z"
+                                                        fill="currentColor"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <h2 class="page__subheading">
+                                    MAGNESIUM SULPHATE
+                                </h2>
+                                <img
+                                    src="/assets/images/MAG.jpg"
+                                    alt=""
+                                    class="mt-30 mb-30"
+                                />
+
+                                <ul class="page__list-disc">
+                                    <li class="page__item-disc">
+                                        In emergent situation, Magnesium may be
+                                        given as a loading dose of 2 g in 100 mL
+                                        D5W, given over 1-2 minutes, followed by
+                                        an infusion of 0.5 to 1.0 g per hour.
+                                    </li>
+                                    <li class="page__item-disc">
+                                        If non-emergent (ie patient is stable)
+                                        may be given over 5-60 minutes.
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Magnesium is not recommended in cardiac
+                                        arrest except when arrhythmias are
+                                        suspected to be caused by magnesium
+                                        deficiency or if you see Torsades de
+                                        Pointes.
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Hypotension and Asystole can occur
+                                        during rapid administration.
+                                    </li>
+                                </ul>
+
+                                <h2 class="page__subheading">
+                                    PROCAINAMIDE HCl
+                                </h2>
+                                <img
+                                    src="/assets/images/procainamide.jpg"
+                                    alt=""
+                                    class="mt-30 mb-30"
+                                />
+                                <p class="page__desc">
+                                    Procainamide is used for the conversion of
+                                    supraventricular arrhythmias ( AF and atrial
+                                    flutter) to sinus rhythm , for control of
+                                    rapid ventricular rate due to accessory
+                                    pathway conduction in preexcited atrial
+                                    arrhythmias, and for wide-complex
+                                    tachycardias that cannot be identified
+                                    clearly as being of supraventricular or
+                                    ventricular origin.
+                                </p>
+                                <ul class="page__list-disc">
+                                    <li class="page__item-disc">
+                                        Loading Dose: 1 g procainamide, diluted
+                                        in 50 mL D5W is administered at 1 mL/min
+                                        (20 mg/minute) for 25 to 30 min.
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Until one of these endpoints reached:
+                                        <ul
+                                            class="page__list page__list-number"
+                                        >
+                                            <li class="page__item">
+                                                Arrhythmia is suppressed,
+                                            </li>
+                                            <li class="page__item">
+                                                Hypotension
+                                            </li>
+                                            <li class="page__item">
+                                                QRS complex is prolonged by 50%
+                                                from its original duration
+                                            </li>
+                                            <li class="page__item">
+                                                Total of 17 mg/kg (1.2 g for a
+                                                70-kg patient) of the drug has
+                                                been given.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Maintenance dose:
+                                        <ul
+                                            class="page__list page__list-number"
+                                        >
+                                            <li class="page__item">
+                                                Preparation: Add 1 gm to 500 ml
+                                                D5W. Resultant concentration:
+                                                2mg/ml
+                                            </li>
+                                            <li class="page__item">
+                                                1 to 4 mg/min. The maintenance
+                                                dosage should be reduced in the
+                                                presence of renal failure.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Oral procainamide for long-term
+                                        maintenance therapy: 250 mg every 3
+                                        hours and up.
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Procainamide should be avoided in
+                                        patients with Torsades de Pointes.
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Hypotension may occur if the drug is
+                                        injected too rapidly.
+                                        <h2 class="page__subheading">
+                                            DILTIAZEM HCl
+                                        </h2>
+                                        <img
+                                            src="/assets/images/DIL.jpg"
+                                            alt=""
+                                            class="mt-30 mb-30"
+                                        />
+                                    </li>
+                                    <div class="page__item-disc">
+                                        Diltiazem is available in 5mg/mL
+                                        concentration.
+                                    </div>
+                                    <div class="page__item-disc">
+                                        Dilute to 1mg/mL concentration. (for
+                                        example , 3ml from this ampule added to
+                                        12 ml D5 W would give 1mg/ml
+                                        concentration)
+                                    </div>
+                                    <div class="page__item-disc">
+                                        Diltiazem first dose of 0.25 mg/kg
+                                        (around 15mg) BOLUS IV over two minutes
+                                        may be given without dilution through
+                                        tubing containing D5W or NS.
+                                    </div>
+                                    <div class="page__item-disc">
+                                        Second dose of 0.35 mg/kg (around 25mg)
+                                        iv over two minutes. (Wait 15 minutes
+                                        after the first dose)
+                                    </div>
+                                    <div class="page__item-disc">
+                                        When diluting, target concentration is 1
+                                        mg/ml
+                                    </div>
+                                    <div class="page__item-disc">
+                                        Diltiazem may also be used as a
+                                        maintenance infusion of 5 to 15 mg/h.
+                                        Add 125mg (25 ml) to 100 ml D5W, which
+                                        creates a total volume of 125 ml, and a
+                                        concentration of 1 mg/ml. This is also
+                                        available in ready to use form:
+                                        <img
+                                            src="/assets/images/diltiazem_home_web_2012.jpg"
+                                            alt=""
+                                            class="mt-30 mb-30"
+                                        />
+                                    </div>
+                                    <div class="page__item-disc">
+                                        Diltiazem is used to control the
+                                        ventricular response rate in patients
+                                        with AF, atrial flutter, or MAT.
+                                    </div>
+                                    <div class="page__item-disc">
+                                        It may decrease myocardial contractility
+                                        and may exacerbate congestive heart
+                                        failure in patients with severe LV
+                                        dysfunction. Diltiazem offers the
+                                        advantage of creating less myocardial
+                                        depression than verapamil.
+                                    </div>
+                                </ul>
+
+                                <h2 class="page__subheading">ATENOLOL</h2>
+                                <p class="page__desc">
+                                    Reduce the incidence of VF significantly in
+                                    post-MI patients who did not receive
+                                    fibrinolytic agents.
+                                </p>
+                                <p class="page__desc">
+                                    5 mg slow IV over 5 minutes, and then wait
+                                    10 minutes.
+                                </p>
+                                <p class="page__desc">
+                                    If the first dose was well tolerated, give a
+                                    second dose of 5 mg slow IV over 5 minutes
+                                </p>
+                                <p class="page__desc">
+                                    Oral Maintenance: 50 mg every 12 hours.
+                                </p>
+
+                                <h2 class="page__subheading">METOPROLOL</h2>
+                                <p class="page__desc">
+                                    Metoprolol is given in doses of 5 mg by slow
+                                    IV push at 5-minute intervals to a total of
+                                    15 mg.
+                                </p>
+                                <p class="page__desc">
+                                    An oral regimen is then initiated 15 minutes
+                                    after the last IV dose at 50 mg twice daily
+                                    for 24 hours and increased to 100 mg twice a
+                                    day, as tolerated.
+                                </p>
+
+                                <h2 class="page__subheading">ATROPINE</h2>
+                                <p class="page__desc">
+                                    Atropine is used for symptomatic sinus
+                                    bradycardia .
+                                </p>
+                                <p class="page__desc">
+                                    The dose of atropine for asystole and slow
+                                    pulseless electrical activity is 1.0 mg IV
+                                    and repeated in 3 to 5 minutes if asystole
+                                    persists.
+                                </p>
+                                <p class="page__desc">
+                                    For bradycardia the dose is 0.5 to 1.0 g IV
+                                    every 3 to 5 minutes to a total dose of 0.04
+                                    mg/kg.
+                                </p>
+                                <p class="page__desc">
+                                    Atropine is not indicated in bradycardia
+                                    from type II AV block and third-degree
+                                    block.
+                                </p>
+
+                                <h2 class="page__subheading">ACE INHIBITORS</h2>
+                                <p class="page__desc">
+                                    Improves LV function in post-MI patients
+                                </p>
+                                <p class="page__desc">
+                                    Reduces sudden death and recurrent MI
+                                </p>
+                                <p class="page__desc">Used in acute MI</p>
+
+                                <h2 class="page__subheading">ADENOSINE</h2>
+                                <p class="page__desc">
+                                    Depresses AV node and sinus node activity.
+                                </p>
+                                <p class="page__desc">
+                                    Used for stopping arrhythmias that have a
+                                    re-entry pathway including the AV node. (
+                                    PSVT )
+                                </p>
+                                <p class="page__desc">
+                                    Initial dose 6-mg rapid bolus over 1 to 3
+                                    seconds, followed by a 20-mL saline flush .
+                                    Half-life of adenosine is <5 seconds
+                                </p>
+                                <p class="page__desc">
+                                    In 1-2 minutes a 12 mg dose my be repeated.
+                                </p>
+                                <p class="page__desc">
+                                    Adenosine is used in stable tachycardia that
+                                    shows narrow and regular QRS complexes. Do
+                                    NOT use if irregular, may precipitate VF.
+                                </p>
+                                <p class="page__desc">
+                                    Adenosine is also used in stable Ventricular
+                                    Tachycardia that is regular and monomorphic.
+                                    Do NOT use if irregular.
+                                </p>
+
+                                <h2 class="page__subheading">AMIODARONE</h2>
+                                <img
+                                    src="./assets/images/amiodarone1.jpg"
+                                    alt=""
+                                    class="mt-30 mb-30"
+                                />
+                                <p class="page__desc">
+                                    Amiodarone 300mg IV diluted in 20ml D5W IV
+                                    SLOW PUSH, (<span class="primary-color"
+                                        >You are giving Amiodarone between the
+                                        third and fourth shocks</span
+                                    >) while CPR continues. Amiodarone is
+                                    diluted in 20 ml of D5W before
+                                    administration. It is not available
+                                    ready-made. Do not let this delay the next
+                                    shock. Keep in mind the contraindications
+                                    for using Amiodarone : 2nd or 3rd degree AV
+                                    block. Contains Iodine, consider
+                                    hypersensitivity. Most common side effects
+                                    are hypotension and bradycardia.
+                                </p>
+
+                                <p class="page__desc mt-30">
+                                    If Amiodarone is successful, this is the
+                                    maintenance dose: 1mg/hr for 6 hours
+                                    followed by 0.5mg/hr for upto 72 hours.
+                                    Inline filter should be used, and a glass
+                                    bottle should be used for administrations
+                                    for over 2 hours. Maximum cumulative dose
+                                    that can be given in a 24 h period is 2.2
+                                    gm. When it is time to transition from IV to
+                                    oral Amiodarone, the starting dose is 200mg
+                                    po q6-8h for one week followed by 200 mg po
+                                    q12 for one week followed by 200 mg po qd.
+                                </p>
+
+                                <p class="page__desc mt-30">
+                                    The major adverse effects from amiodarone
+                                    are hypotension and bradycardia, which can
+                                    be prevented by slowing the rate of drug
+                                    infusion or can be treated with fluids,
+                                    pressors, chronotropic agents, or temporary
+                                    pacing.
+                                </p>
+
+                                <h2 class="page__subheading">LIDOCAINE</h2>
+                                <img
+                                    src="./assets/images/LID.jpg"
+                                    alt=""
+                                    class="mt-30 mb-30"
+                                />
+
+                                <p class="page_desc mt-30">
+                                    Lidocaine can be used in Ventricular
+                                    Fibrillation/ Pulseless VTach that is
+                                    refractory to Amiodarone.
+                                </p>
+                                <ul class="page__list-disc">
+                                    <li class="page__item-disc">
+                                        Initial dose: 1 to 1.5 mg/kg IV/IO
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Optional additional doses 0.5 to 0.75
+                                        mg/kg IV push, repeat in 5 to 10 minutes
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Maximum 3mg/kg cumulative.
+                                    </li>
+                                    <li class="page__item-disc">
+                                        Maintenance dose 1-4mg/minute
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ads -->
+            <section class="ads">
+                <div class="container">
+                    <div class="ads__inner">
+                        <div class="row row-cols-3">
+                            <div class="col">
+                                <div class="ads__content">
+                                    <a
+                                        href="https://www.amazon.com/dp/B0CCC8L659"
+                                        ><img
+                                            src="./assets/images/book_mockup.png"
+                                            alt="Book"
+                                    /></a>
+                                    <p>
+                                        <a
+                                            href="https://www.amazon.com/dp/B0CCC8L659"
+                                            class="primary-color"
+                                            >Read the ACLS Book</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="ads__content ads__content-pdf">
+                                    <a
+                                        class="ads__link"
+                                        href="./assets/pdf/ACLSStudyGuide.com_ACLS_Review_Study_Guide_Course.pdf"
+                                    >
+                                        <img
+                                            class="ads__pdf-img"
+                                            src="./assets/images/pdf-mockup.png"
+                                            alt="PDF"
+                                        />
+                                    </a>
+                                    <p>
+                                        <a
+                                            href="./assets/pdf/ACLSStudyGuide.com_ACLS_Review_Study_Guide_Course.pdf"
+                                            class="primary-color"
+                                            >ACLS All-in-one Summary
+                                            Printable</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="ads__content">
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=com.magma.acls&pli=1"
+                                        ><img
+                                            src="./assets/images/app_mockup.png"
+                                            alt="App"
+                                    /></a>
+                                    <p>
+                                        <a
+                                            href="https://play.google.com/store/apps/details?id=com.magma.acls&pli=1"
+                                            class="primary-color"
+                                            >Get the ACLS App</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Similar Page -->
+            <section class="similar">
+                <div class="container">
+                    <div class="similar__inner">
+                        <h2 class="similar__heading">Read Other Page</h2>
+                        <a class="btn similar__link" href="index.html"
+                            >Read All Page</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <!-- Posts -->
+            <section class="posts">
+                <div class="container">
+                    <div class="posts__inner">
+                        <div
+                            class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1"
+                        >
+                            <div class="col">
+                                <div class="posts__content">
+                                    <a
+                                        href="ventricular-fibrillation-algorithm-acls-explained-tutorial.html"
+                                        ><img
+                                            class="posts__img"
+                                            src="./assets/images/front2.jpg"
+                                            alt="1"
+                                    /></a>
+                                    <a
+                                        href="ventricular-fibrillation-algorithm-acls-explained-tutorial.html"
+                                        class="posts__heading"
+                                        ><h3>Ventricular Fibrillation</h3></a
+                                    >
+                                    <p class="posts__desc">
+                                        It this was an unwitnessed arrest,
+                                        meaning it did not happen in front of
+                                        you, you should give him 5 cycles of
+                                        CPR...
+                                    </p>
+                                    <a
+                                        class="posts__link"
+                                        href="ventricular-fibrillation-algorithm-acls-explained-tutorial.html"
+                                        >Read More</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="posts__content">
+                                    <a
+                                        href="cpr-infant-algorithm-acls-explained-tutorial.html"
+                                        ><img
+                                            class="posts__img"
+                                            src="./assets/images/infant_cpr_duo.jpg"
+                                            alt="2"
+                                    /></a>
+                                    <a
+                                        href="cpr-infant-algorithm-acls-explained-tutorial.html"
+                                        class="posts__heading"
+                                        ><h3>Infant Cpr</h3></a
+                                    >
+                                    <p class="posts__desc">
+                                        Perform 30 chest compressions. Use two
+                                        fingers and deliver the compressions
+                                        over the breastbone, just below the
+                                        nipple line...
+                                    </p>
+                                    <a
+                                        class="posts__link"
+                                        href="cpr-infant-algorithm-acls-explained-tutorial.html"
+                                        >Read More</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="posts__content">
+                                    <a
+                                        href="asystole-algorithm-acls-explained-tutorial.html"
+                                        ><img
+                                            class="posts__img"
+                                            src="./assets/images/breaths.jpg"
+                                            alt="3"
+                                    /></a>
+                                    <a
+                                        href="asystole-algorithm-acls-explained-tutorial.html"
+                                        class="posts__heading"
+                                        ><h3>Asystole</h3></a
+                                    >
+                                    <p class="posts__desc">
+                                        Interrupt CPR for 10 seconds at some
+                                        point to insert an Endotracheal tube.
+                                        Remember, 10 seconds means 10 seconds
+                                        and...
+                                    </p>
+                                    <a
+                                        class="posts__link"
+                                        href="asystole-algorithm-acls-explained-tutorial.html"
+                                        >Read More</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="posts__content">
+                                    <a
+                                        href="cpr-general-principles-algorithm-acls-explained-tutorial.html"
+                                        ><img
+                                            class="posts__img"
+                                            src="./assets/images/headtilt_chinlift.jpg"
+                                            alt="3"
+                                    /></a>
+                                    <a
+                                        href="cpr-general-principles-algorithm-acls-explained-tutorial.html"
+                                        class="posts__heading"
+                                        ><h3>Cpr General Principles</h3></a
+                                    >
+                                    <p class="posts__desc">
+                                        CPR sequence is Compressions- Airway -
+                                        Breathing. The only exception is
+                                        drowning victims where the sequence
+                                        is...
+                                    </p>
+                                    <a
+                                        class="posts__link"
+                                        href="cpr-general-principles-algorithm-acls-explained-tutorial.html"
+                                        >Read More</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+                           <div class="footer_content">
+                                <h3 class="footer__heading footer__heading-first">Company</h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="terms.html">Term and Conditions</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="privacy.html">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="help.html">Help</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="thank-you.html">Thank You</a>
+                                    </li>
+                                </ul>
+                           </div> 
+                        </div>
+                        <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                            <div class="footer_content">
+                                <h3 class="footer__heading">Legalese:</h3>
+                                <p class="footer__legalese-desc">Please note that ACLS REVIEW GUIDE is an educational aid, and the ACLS REVIEW GUIDE app and this website do not claim to diagnose or treat any disease or condition and claims no accuracy and has not been validated in any studies. Medicine is an ever changing science. We do NOT warrant that the information in this app is accurate or complete and we are not responsible for any errors or omissions or for the results obtained from the use of the aforesaid information. Like any other tool, it works best in the hands of those already well versed in the field. The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the publisher be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.</p>
+                            </div> 
+                        </div>
+                        <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+                            <div class="footer_content">
+                                <h3 class="footer__heading">About Us</h3>
+                                <div class="footer__about-content">
+                                    <p>IXI DESIGN LLC,</p>
+                                    <p>522 W RIVERSIDE AVE STE N,</p>
+                                    <p>SPOKANE WA 99201-0580</p>
+                                </div>
+                            </div>        
+                        </div>             
+                    </div>
+    
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer__copyright">
+                                <p class="footer__copyright-content">Copyright 2023 All Rights Reserved</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
