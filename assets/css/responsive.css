@@ -1,3 +1,10 @@
+@media (max-width: 994px) {
+    .ads .ads__content-pdf .ads__pdf-img {
+        width: 150px;
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 768px) {   
     .page.term-content .container {
         max-width: 680px;
@@ -24,6 +31,11 @@
     .ads .container {
         max-width: 700px;
     }    
+
+    .ads .ads__content-pdf .ads__pdf-img {
+        width: 120px;
+        max-width: 100%;
+    }
 
     .similar .similar__inner {
         flex-direction: column;
@@ -161,7 +173,7 @@
     }
 
     .ads .ads__content-pdf .ads__pdf-img {
-        width: 70px;
+        width: 100px;
         max-width: 100%;
     }
 

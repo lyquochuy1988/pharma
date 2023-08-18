@@ -103,6 +103,15 @@ a {
     padding-left: 0;
 }
 
+.nav__link strong {
+    font-weight: 600;
+}
+
+.nav__link span {
+    display: block;
+    margin-top: 4px;
+}
+
 .cta__img {
     width: 164px;
     max-width: 100%;
@@ -167,7 +176,7 @@ a {
 }
 
 .ads__content-pdf .ads__pdf-img {
-    width: 100px;
+    width: 200px;
     max-width: 100%;
 }
 
